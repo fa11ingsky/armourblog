@@ -1,8 +1,11 @@
 (function ($) {
     "use strict";
 
-    $(document).ready(function($){
-        
+    $(document).ready(function ($) {
+
+        // Initial load entry
+        $("#entry-section").load("entries/1.html");
+
         // testimonial sliders
         $(".testimonial-sliders").owlCarousel({
             items: 1,
@@ -156,12 +159,22 @@
         $(".close-btn").on("click", function() {
             $(".search-area").removeClass("search-active");
         });
+
+        // Entry loader
+        $("ul li a").on("click", function () {
+            var n = $(this).data("value");
+            $("#entry-section").load(`entries/${n}.html`);
+        });
+        
     
     });
 
 
     jQuery(window).on("load",function(){
         jQuery(".loader").fadeOut(1000);
+        // initial entry load
+       
+       
     });
 
 
