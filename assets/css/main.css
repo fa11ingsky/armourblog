@@ -1667,10 +1667,35 @@ p.excerpt {
   margin-bottom: 30px;
 }
 
-.blog-photo-1-bg {
-  border-radius: 20px;
-  height: 450px;
-  object-fit: fill;
+.polaroid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.polaroid a {
+    border-radius: 10px;
+    background: #ffffff;
+    display: inline-block;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+}
+
+.polaroid a:after {
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
 }
 
 .pagination-wrap {
