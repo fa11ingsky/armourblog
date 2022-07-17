@@ -140,10 +140,6 @@
 
        
 
-        // stikcy js
-        $("#sticker").sticky({
-            topSpacing: 0
-        });
 
         //mean menu
         $('.main-menu').meanmenu({
