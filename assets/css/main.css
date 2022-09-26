@@ -847,7 +847,7 @@ a.mobile-show {
 
 ----------------------------------------------------------------------------- */
 .single-logo-item img {
-  max-width: 180px;
+  max-width: 180px
   margin: 0 auto;
 }
 
@@ -983,8 +983,10 @@ h2.widget-title:after {
   content: "\f105";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  color: #F28123;
+  color: #051922;
 }
+
+
 
 /* -----------------------------------------------------------------------------
 
@@ -1672,7 +1674,7 @@ p.excerpt {
     border-radius: 10px;
     background: #ffffff;
     display: inline-block;
-    padding: 15px 15px 30px;
+    padding: 15px 15px 15px;
     text-align: center;
     text-decoration: none;
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -1685,12 +1687,12 @@ p.excerpt {
     position: relative;
 }
 
-.polaroid a:after {
+.polaroid a:before {
     color: #333;
     font-size: 25px;
     content: attr(title);
     position: relative;
-    top: 15px;
+    top: 0px;
 }
 
 .pagination-wrap {
@@ -1771,8 +1773,8 @@ p.excerpt {
 }
 
 .comment-user-avater img {
-  width: 60px;
-  max-width: 60px;
+  width: 10;
+  max-width: 10px;
   border-radius: 50%;
 }
 
